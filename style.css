@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+body{
+    font-family: 'Delius', cursive;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #009DAE;
+    padding: 2rem;
+}
+
+nav h1{
+    font-size: 5rem;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+nav img{
+    border: 2px solid black;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+section p{
+    font-size: 1.5rem;
+    text-align: right;
+    text-align-last: center;
+    align-self: center;
+}
+
+section .pDiv{
+    background-color: #C2FFF9;
+    border: 2px solid #71DFE7;
+    padding: 3rem;
+    padding-bottom: 2.5rem;
+}
+
+Main{
+    text-align: center;
+    background-color: crimson;
+    color: white;
+    padding: 4rem;
+}
+
+Main button{
+    padding: 1rem;
+    background-color: crimson;
+    color: white;
+    font-family: 'Delius', cursive;
+    border: 1px solid white; 
+}
+
+Main button:hover{
+    background-color: white;
+    color: crimson;
+}
+
+.products{
+    background-color: lightcoral;
+}
+
+.products h1{
+    font-size: 4rem;
+}
+
+.products img{
+    border: 5px solid black;
+}
